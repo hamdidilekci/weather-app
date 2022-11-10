@@ -1,4 +1,4 @@
-# Getting Started with `weather-forecastr.netlify.app`
+# Getting Started with `www.weather-forecastr.netlify.app`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
