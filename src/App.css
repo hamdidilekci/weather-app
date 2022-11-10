@@ -1,0 +1,61 @@
+.loading {
+  font-size: 40px;
+  color: darkblue;
+  margin-top: 40px;
+}
+
+.App {
+  /* background: linear-gradient(to bottom, #414141 0%,#292929 100%); */
+  background-color: #23384d;
+  min-height: 720px;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e344a;
+}
+
+.weather-card {
+  width: 50rem;
+}
+
+.today-card {
+  background-image: url(components/today-bg.jpg);
+  background-size: cover;
+  color: #20231d;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.today-card h1 {
+  font-weight: bolder !important;
+  font-size: xx-large !important;
+}
+
+.week-card {
+  background: #23384d;
+  background: linear-gradient(90deg, #23384d 0%, #182634 100%);
+  background: -moz-linear-gradient(90deg, #23384d 0%, h#182634 100%);
+  background: -webkit-linear-gradient(90deg, #182634 0%, #182634 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#294B69", endColorstr="#2D77C6", GradientType=1);
+  color: whitesmoke;
+}
+
+.elements {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background: #1b2a39;
+}
+
+.day-name {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: lighter;
+}
